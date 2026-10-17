@@ -1,5 +1,13 @@
 # VTToolz
 
+[![build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com)
+[![License](https://img.shields.io/badge/License-GPL_v3-yellow.svg)](https://opensource.org/licenses/GPL-3.0)
+[![GitHub All Releases](https://img.shields.io/github/downloads/mich111discord/MightyMichs-Patches/total)](https://github.com/mich111discordMightyMichs-Patches/releases)
+
+[![Latest Release](https://img.shields.io/github/v/release/mich111discord/VTToolz?style=for-the-badge&color=blueviolet&logo=github)](https://github.com/mich111discord/VTToolz/releases/latest)
+[![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+
+
 **VirusTotal CLI without the official API.**
 
 Hash lookup, full detection list (engines + threat names), cookies bypass, reCAPTCHA token support, proxies, JSON output.
@@ -110,4 +118,4 @@ python -m vttoolz 275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd
 
 ## License
 
-MIT
+GPL-3.0 license
