@@ -1,0 +1,9 @@
+Package: vttoolz
+Version: 0.3.1
+Section: utils
+Priority: optional
+Architecture: all
+Depends: python3 (>= 3.9), python3-requests
+Maintainer: VTToolz Contributors
+Description: VirusTotal CLI without official API
+ Hash lookup, detections, cookies and optional upload helpers.

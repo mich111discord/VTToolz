@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vttoolz"
+version = "0.2.0"
+description = "VirusTotal CLI scraper without official API – hash lookup, detections, cookies, proxies"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "VTToolz Contributors" }]
+keywords = ["virustotal", "malware", "cli", "scraper", "security"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+]
+dependencies = [
+    "requests>=2.31.0",
+]
+
+[project.scripts]
+vttoolz = "vttoolz.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/yourname/VTToolz"
+Repository = "https://github.com/yourname/VTToolz"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["vttoolz*"]

@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+import sys
+sys.path.insert(0, 'C:\Users\micha\Documents\VTToolz\build\vttoolz-bsd-0.3.1\lib\vttoolz')
+from vttoolz.cli import main
+sys.exit(main())

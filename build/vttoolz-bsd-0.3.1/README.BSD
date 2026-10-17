@@ -1,0 +1,6 @@
+VTToolz 0.3.1 – BSD layout
+
+Install:
+  sudo cp -R bin/* /usr/local/bin/
+  sudo cp -R lib/* /usr/local/lib/
+  sudo pkg install py39-requests   # or equivalent
